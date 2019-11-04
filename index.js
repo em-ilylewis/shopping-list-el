@@ -2,10 +2,6 @@
 //preventDefault(), toggleClass(), closest()
 //using 'this' and event delegation
 
-function myAlert {
-    alert("Hello!");
-}
-
 //enter items they need to purchase 
 //by entering text and hitting "Return" 
 //or clicking the "Add item" button
