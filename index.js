@@ -2,15 +2,21 @@
 //preventDefault(), toggleClass(), closest()
 //using 'this' and event delegation
 
-//enter items they need to purchase 
+
+$(document).ready(function() {
+
+
+/*enter items they need to purchase 
 //by entering text and hitting "Return" 
 //or clicking the "Add item" button
+
 const addItems = function() {
     $('#js-shopping-list-form').submit(event){
         event.preventDefault();
     addItems();
     }
 }
+*/
 
 
 //check and uncheck items on the list by 
@@ -29,4 +35,9 @@ function() {
     '.shopping-item-delete', function(event){
         $(this).closest('li').remove();
     });
-})
+
+
+
+
+
+});
